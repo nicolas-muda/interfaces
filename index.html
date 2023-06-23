@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PACMA - Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <header class="header">
+    <!--navbar mobile-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbarMobile">
+      <div class="container-fluid">
+
+        <div class="mobile">
+          <div>
+            <!--boton para la version mobile-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <!--icono de pagina-->
+          <div>
+            <a class="navbar-brand" href="index.html">
+              <img src="img/logo.png" alt="logo" width="100" height="80">
+            </a>
+          </div>
+
+          <!--icono de login-->
+          <div>
+            <a href="loggin.html"><img src="img/usser.svg" alt="" width="50"></a>
+          </div>
+        </div>
+
+        <!--elementos-->
+        <div class="collapse navbar-collapse" id="menu">
+          <!--me-auto alinea a la izquierda, mx-auto alinea al medio y ms-auto alinea a la derecha-->
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="adopcion.html">Adopcion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="donar.html">Donar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <!--navbar desktop-->
+    <nav class="navbar navbar-expand navbar-light bg-light navbarDesktop">
+      <div class="container-fluid">
+        <!--logo-->
+        <div>
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="logo" width="70">
+            <span class="spanPacma">PACMA</span>
+          </a>
+        </div>
+
+        <!--elementos-->
+        <div class="collapse navbar-collapse" id="menu">
+          <!-- me-auto alinea a la izquierda, mx-auto alinea al medio y ms-auto alinea a la derecha-->
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="adopcion.html">Adopcion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="donar.html">Donar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--login-->
+        <div>
+          <a href="loggin.html"><img src="img/usser.svg" alt=""></a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <div class="ult_adopcion">
+    <h2>Ultimas adopciones</h2>
+    <!--carrusel bootstrap-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <!--botones abajo-->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <!--divs de imagenes-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrusel/descarga.jpg" class="d-block w-100% imagenCarrusel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Thor</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel/descarga1.jpg" class="d-block w-100% imagenCarrusel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Max</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel/descarga2.jpg" class="d-block w-100% imagenCarrusel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Coco</h5>
+          </div>
+        </div>
+      </div>
+      <!--flechas-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+  <div class="adopte">
+    <h2>Adopte un amigo</h2>
+    <a href="adopcion.html"><img src="img/adopta.jpg" alt="adopte" class="img"></a>
+  </div>
+
+  <div class="introduccion">
+    <h2 class="subtit_nos">Nosotros</h2>
+    <p>Somos un grupo de personas que compartimos las mismas ganas de cambiar la realidad de muchos animales y el motor
+      que nos impulsa a hacerlo es el amor hacia ellos.
+      Nuestro objetivo principal es la educación sobre la tenencia responsable de mascotas con todo lo que eso conlleva,
+      la importancia de la esterilización de perros y gatos (machos y hembras) de forma temprana y sistemática, y la
+      concientización sobre el cuidado del medio ambiente.
+      En nuestra pagina tendrán lugar las adopciones, animales perdidos y encontrados y los pedidos de ayuda a los que
+      responderemos en la medida que podamos.
+      No están permitidas las publicaciones donde se comercialicen productos,y menos aun animales,como así tampoco
+      publicaciones buscando pareja para los mismos.
+      Aceptaremos sugerencias,opiniones,pero queremos que en este espacio que creamos, prime el respeto y los buenos
+      modales, no permitiremos faltas de respeto o publicaciones fuera de lugar,ayúdennos a lograrlo!!</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

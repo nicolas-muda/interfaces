@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PACMA - Login y Registro</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="adopcion.html">Adopcion</a></li>
+        <li><a href="donar.html">Donar</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="loggin.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Login</h1>
+  <div class="container">
+    <div class="form_registro">
+      <h2>Registro</h2>
+      <form action="registro.php" method="POST">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre completo" required>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico" required>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese una contraseña" required>
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+
+    <div class="form_login">
+      <h2>Login</h2>
+      <form action="login.php" method="POST">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico" required>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña" required>
+        <button type="submit">Iniciar sesión</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

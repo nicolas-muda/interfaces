@@ -1,0 +1,11 @@
+a la imgaen del carrusel
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+
+.ult_adopcion {
+    margin: 2%;
+    flex: 1;
+    width: 50%;
+    align-items: center;
+}

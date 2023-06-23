@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PACMA - Donaciones</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="adopcion.html">Adopcion</a></li>
+        <li><a href="donar.html">Donar</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="loggin.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Donar dinero</h1>
+  <div class="container">
+    <div class="donation-form">
+      <h2>Formulario de Donación</h2>
+      <form action="procesar_donacion.php" method="POST">
+        <label for="numero_tarjeta">Número de tarjeta:</label>
+        <input type="text" name="numero_tarjeta" id="numero_tarjeta" placeholder="Ingrese el número de tarjeta" required>
+        <label for="fecha_vencimiento">Fecha de vencimiento (MM/AA):</label>
+        <input type="text" name="fecha_vencimiento" id="fecha_vencimiento" placeholder="Ingrese la fecha de vencimiento" required>
+        <label for="codigo_seguridad">Código de seguridad:</label>
+        <input type="text" name="codigo_seguridad" id="codigo_seguridad" placeholder="Ingrese el código de seguridad" required>
+        <label for="nombre_tarjeta">Nombre en la tarjeta:</label>
+        <input type="text" name="nombre_tarjeta" id="nombre_tarjeta" placeholder="Ingrese el nombre en la tarjeta" required>
+        <label for="documento_identificacion">Documento de identificación:</label>
+        <input type="text" name="documento_identificacion" id="documento_identificacion" placeholder="Ingrese el documento de identificación" required>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" name="telefono" id="telefono" placeholder="Ingrese el número de teléfono" required>
+        <label for="monto">Monto de donación:</label>
+        <input type="number" name="monto" id="monto" placeholder="Ingrese el monto de la donación" required>
+        <button type="submit">Donar</button>
+      </form>      
+    </div>
+
+    <div class="images">
+      <img src="imagen1.jpg" alt="Imagen 1">
+      <img src="imagen2.jpg" alt="Imagen 2">
+    </div>
+  </div>
+</body>
+</html>
