@@ -241,3 +241,7 @@ button {
 .introduccion {
   text-align: center;
 }
+
+.adopt{
+display: flex;
+}
