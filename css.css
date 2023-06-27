@@ -7,9 +7,6 @@ body {
 
 /*index mobile*/
 @media (max-width: 610px) {
-  .ult_adopcion {
-    width: max-content;
-  }
 
   .navbarMobile {
     display: block;
@@ -21,9 +18,14 @@ body {
 
   .ult_adopcion {
     margin: 2%;
-    flex: 1;
-    width: 50%;
-    align-items: center;
+    width: auto;
+    height: fit-content;
+  }
+
+  .adopte {
+    margin: 2%;
+    width: auto;
+    height: fit-content;
   }
 
   .imagenCarrusel {
@@ -33,33 +35,28 @@ body {
   }
 
   body {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: repeat(7, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    display: block;
   }
 
-
-  header {
-    grid-area: 1 / 1 / 2 / 4;
+  .introduccion{
+    margin: 2%;
   }
-
-  .ult_adopcion {
-    grid-area: 3 / 2 / 4 / 3;
-  }
-
-  .adopte {
-    grid-area: 5 / 2 / 6 / 3;
-  }
-
-  .introduccion {
-    grid-area: 7 / 2 / 8 / 3;
-  }
+ 
 }
 
 /*index desktop*/
 @media (min-width: 611px) {
+
+  .carruselNombre{
+    font-size: 20px;
+    /*color original gris 333*/
+    background-color: rgb(32, 32, 32);
+    opacity: .8;
+    /*si le gusta corto dejar esto sino volarlo*/
+    display: table;
+    margin: auto;
+  }
+
   .navbarMobile {
     display: none;
   }
@@ -71,7 +68,12 @@ body {
 
   .ult_adopcion {
     margin: 2%;
-    width: 100%;
+    width: auto;
+  }
+
+  .adopte {
+    margin: 2%;
+    width: auto;
   }
 
   .imagenCarrusel {
@@ -79,13 +81,18 @@ body {
     background-size: contain;
     width: 100%;
   }
-
+  /* por que en el inspector si agarro el body y le pogno display grid queda bien pero si lo hago desde css no*/
   .body {
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+  }
+
+  body{
+    display: grid;
   }
 
   .header {
@@ -102,10 +109,6 @@ body {
 
   .ult_adopcion {
     grid-area: 3 / 1 / 5 / 3;
-  }
-
-  #menu {
-    margin-left: 15%;
   }
 
   ul li {
@@ -166,20 +169,6 @@ nav ul li a {
 
 .conteiner {
   display: flex;
-}
-
-.ult_adopcion {
-  margin: 2%;
-  flex: 1;
-  width: 50%;
-  align-items: center;
-}
-
-.adopte {
-  margin: 2%;
-  flex: 1;
-  width: 50%;
-  align-items: center;
 }
 
 .img {
