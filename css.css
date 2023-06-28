@@ -239,6 +239,7 @@ button {
   text-align: center;
 }
 
-.adopt{
-display: flex;
+.adopt {
+  display: flex;
+  margin-left: 30px;
 }
