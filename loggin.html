@@ -49,16 +49,16 @@
     </nav>
   </header>
   <h1>Login</h1>
-  <div class="container">
+  <div class="conteiner_log">
     <div class="form_registro">
       <h2>Registro</h2>
       <form action="registro.php" method="POST">
         <label for="nombre">Nombre completo:</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre completo" required>
+        <input class="log" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre completo" required>
         <label for="correo">Correo electrónico:</label>
-        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico" required>
+        <input class="log" type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico" required>
         <label for="contrasena">Contraseña:</label>
-        <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese una contraseña" required>
+        <input class="log" type="password" name="contrasena" id="contrasena" placeholder="Ingrese una contraseña" required>
         <button type="submit">Registrarse</button>
       </form>
     </div>
@@ -67,9 +67,9 @@
       <h2>Login</h2>
       <form action="login.php" method="POST">
         <label for="correo">Correo electrónico:</label>
-        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico" required>
+        <input class="log" type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico" required>
         <label for="contrasena">Contraseña:</label>
-        <input type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña" required>
+        <input class="log" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña" required>
         <button type="submit">Iniciar sesión</button>
       </form>
     </div>
