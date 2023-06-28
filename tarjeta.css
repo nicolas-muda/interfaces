@@ -1,0 +1,75 @@
+.tarjeta{
+    margin-bottom: -150px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+}
+
+.frente{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background:linear-gradient(45deg, rgb(36, 58, 107), rgb(10, 89, 236));
+    border-radius: 5px;
+    backface-visibility: hidden;
+    padding:20px;
+    transform:perspective(1000px) rotateY(0deg);
+    transition:transform .4s ease-out;
+}
+
+.divCodigo{
+    padding:30px 0;
+    font-size: 22px;
+    color:#fff;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.flexbox .caja:nth-child(1){
+    margin-right: auto;
+}
+
+.caja{
+    font-size: 15px;
+    color:#fff;
+    padding: 0 20px;
+}
+
+.atras{
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(45deg, rgb(36, 58, 107), rgb(10, 89, 236));
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    transform:perspective(1000px) rotateY(180deg);
+    transition:transform .5s ease-out;
+}
+
+.barraNegra{
+    background: #000;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.caja span{
+    color:#fff;
+    font-size: 15px;
+}
+
+.barraBlanca{
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color:#333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
