@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+.textoIndex {
+  text-align: left;
+}
+
 /*index mobile*/
 @media (max-width: 610px) {
 
@@ -17,15 +21,17 @@ body {
   }
 
   .ult_adopcion {
-    margin: 2%;
+    margin: 5%;
     width: auto;
     height: fit-content;
+    margin-bottom: 9%;
   }
 
   .adopte {
-    margin: 2%;
+    margin: 5%;
     width: auto;
     height: fit-content;
+    margin-bottom: 9%;
   }
 
   .imagenCarrusel {
@@ -38,16 +44,16 @@ body {
     display: block;
   }
 
-  .introduccion{
-    margin: 2%;
+  .introduccion {
+    margin: 5%;
   }
- 
+
 }
 
 /*index desktop*/
 @media (min-width: 611px) {
 
-  .carruselNombre{
+  .carruselNombre {
     font-size: 20px;
     /*color original gris 333*/
     background-color: rgb(32, 32, 32);
@@ -57,7 +63,7 @@ body {
     margin: auto;
   }
 
-  .introduccion{
+  .introduccion {
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 1%;
@@ -89,6 +95,7 @@ body {
     background-size: contain;
     width: 100%;
   }
+
   /* por que en el inspector si agarro el body y le pogno display grid queda bien pero si lo hago desde css no*/
   .body {
     margin: 0;
@@ -99,12 +106,18 @@ body {
     grid-row-gap: 0px;
   }
 
-  body{
+  body {
     display: grid;
   }
 
   .header {
     grid-area: 1 / 1 / 2 / 6;
+  }
+
+  .img {
+    /* preguntar como acomodar la imagen*/
+    height: 100%;
+    width: 100%;
   }
 
   .adopte {
@@ -191,6 +204,24 @@ nav ul li a {
   border-radius: 5px;
 }
 
+/*noticias*/
+.noticiero {
+  display: block;
+}
+
+.noticias {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulo {
+  margin: 3%;
+}
+
+.card {
+  margin: 5%;
+}
+/*----------------------*/
 .form_login,
 .form_registro {
   text-align: center;
@@ -244,12 +275,12 @@ button {
   margin-left: 30px;
 }
 
-.adoptame{
+.adoptame {
   display: flex;
   margin: 20px;
 }
 
-.adoptame-txt{
+.adoptame-txt {
   margin-left: 60px;
-  
+
 }
