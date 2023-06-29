@@ -221,6 +221,7 @@ nav ul li a {
 .card {
   margin: 5%;
 }
+
 /*----------------------*/
 .form_login,
 .form_registro {
@@ -283,4 +284,14 @@ button {
 .adoptame-txt {
   margin-left: 60px;
 
+}
+
+#name,
+#saludo {
+  font-size: larger;
+  margin-top: 15px;
+}
+
+#saludo {
+  margin-left: 60px;
 }
