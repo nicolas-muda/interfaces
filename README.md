@@ -4,11 +4,9 @@ ETAPA3:
 
 cosas para hacer:
 index: desktop:
-      -el adopte un amigo acomodarlo para que tenga el mismo tamaño que el carrusel
-      -el nosotros el texto ajustarlo a la izquierda
+      -el adopte un amigo acomodarlo para que tenga el mismo tamaño que el carrusel (preguntar al profe)
       mobile:
       -navbar hacerlo stiky
-      -hacer que haya mas separacion entre los elementos para que no se confundan los titulos
       
 donacion: -agregar la pagina pre formulario
           -ponerle estilo al formulario
@@ -18,6 +16,7 @@ donacion: -agregar la pagina pre formulario
 login: -acomodar estilo
        -hacer que funcione 
 
-noticias: -crear las noticias
-          -agregar la barra de busqueda que filtre por el titulo (posiblemente lo mas facil, ponerle una lupa en el input recomendacion de los profes) 
+noticias:
+         -ponerle una lupa en el input recomendacion de los profes
+         -acomodar estilo
           
