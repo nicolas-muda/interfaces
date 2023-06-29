@@ -9,3 +9,8 @@ a la imgaen del carrusel
     width: 50%;
     align-items: center;
 }
+
+alinear la barra del buscador
+poner "outline none" en los formularios
+
+mostrar las eperiencias de porque se usa
