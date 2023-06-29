@@ -10,53 +10,54 @@
 </head>
 
 <body>
-    <header class="header">
-        <!--navbar desktop-->
-        <nav class="navbar navbar-expand navbar-light bg-light navbarDesktop">
-          <div class="container-fluid">
-            <!--logo-->
-            <div>
-              <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" alt="logo" width="70">
-                <span class="spanPacma">PACMA</span>
-              </a>
-            </div>
-    
-            <!--elementos-->
-            <div class="collapse navbar-collapse" id="menu">
-              <!-- me-auto alinea a la izquierda, mx-auto alinea al medio y ms-auto alinea a la derecha-->
-              <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="adopcion.html">Adopcion</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="donar.html">Donar</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="noticias.html">Noticias</a>
-                </li>
-              </ul>
-            </div>
-    
-            <!--login-->
-            <div>
-              <a href="loggin.html"><img src="img/usser.svg" alt=""></a>
-            </div>
-          </div>
-        </nav>
-      </header>
+  <header class="header">
+    <!--navbar desktop-->
+    <nav class="navbar navbar-expand navbar-light bg-light navbarDesktop">
+      <div class="container-fluid">
+        <!--logo-->
+        <div>
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="logo" width="70">
+            <span class="spanPacma">PACMA</span>
+          </a>
+        </div>
 
-    <script>
-        var texto = getSavedText();
-        if (texto) {
-            document.querySelector("p").innerHTML = texto;
-        }
-    </script>
-    <p></p>
-    <script src="js.js"></script>
+        <!--elementos-->
+        <div class="collapse navbar-collapse" id="menu">
+          <!-- me-auto alinea a la izquierda, mx-auto alinea al medio y ms-auto alinea a la derecha-->
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="adopcion.html">Adopcion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="donar.html">Donar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--login-->
+        <div>
+          <a href="loggin.html"><img src="img/usser.svg" alt=""></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="adoptame">
+    <div class="perro">
+      <img class="img-adopt" src="img/perro.jpg" alt="Dog" width="550px" height="400px">
+    </div>
+    <div class="adoptame-txt">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem at qui mollitia, doloribus dolores cum velit voluptatem delectus non nihil autem dolor magnam voluptates porro et, placeat laboriosam accusamus illo!</p>
+    </div>
+  </div>
+  <script src="js.js"></script>
 </body>
 
 </html>
