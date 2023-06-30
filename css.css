@@ -87,9 +87,10 @@ footer {
     flex-grow: 0;
   }
 
+  /* el margin left es +5 pero esta asi para safar*/
   .ult_adopcion {
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: -5%;
     width: auto;
   }
 
@@ -115,9 +116,16 @@ footer {
     grid-row-gap: 0px;
   }
 
+  /*a esta clase sacarla despues*/
+  .bodyindex {
+    display: block;
+    align-items: baseline;
+  }
+
+  /* esta era la original
   body {
     display: grid;
-  }
+  }*/
 
   .header {
     grid-area: 1 / 1 / 2 / 6;
@@ -459,4 +467,3 @@ button {
   margin-bottom: 30px;
   /*width: 99px !important;*/
 }
-
