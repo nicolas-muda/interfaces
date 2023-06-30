@@ -178,7 +178,7 @@ nav ul li,
   display: inline;
 }
 
-.bodydonar{
+.bodydonar {
   display: inherit;
 }
 
@@ -194,7 +194,7 @@ nav ul li a {
   margin-left: -55px;
 }
 
-#donarall{
+#donarall {
   display: flex;
 }
 
@@ -307,7 +307,12 @@ nav ul li a {
 /*----------------------*/
 .form_login,
 .form_registro {
+  border: solid;
   text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 20%;
+  margin-top: 80px;
 }
 
 h2,
@@ -359,32 +364,32 @@ button {
   margin: 20px;
 }
 
-/*.card {
+.cardo {
   flex: 1;
   margin: 0 10px;
   text-align: center;
 }
 
-.card-img-top {
+.cardo-img-top {
   object-fit: cover;
 }
 
-.card-body {
+.cardo-body {
   padding: 10px;
 }
 
 .adoptame {
   display: flex;
-  margin: 40px;
+  margin-left: 140px;
 }
 
 .perro {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .adoptame-txt {
-  margin-left: 20px;
-  margin-right: 30px;
+  margin-left: 60px;
+  margin-right: 140px;
 }
 
 #name,
@@ -409,4 +414,19 @@ button {
 
 .input-telef {
   margin-left: 4px;
+}
+
+#p1,
+#p2,
+#p3 {
+  width: 300px;
+}
+
+.conteiner_log{
+  display: flex;
+  align-items: center;
+}
+
+.txtmsn{
+  margin-left: 140px;
 }
