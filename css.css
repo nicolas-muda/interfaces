@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'texto';
+  src: url('Martel/Martel-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'titulo';
+  src: url('Hind_Siliguri/HindSiliguri-Medium.ttf') format('truetype');
+}
+
+p {
+  font-family: 'texto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'titulo', sans-serif;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #CDD973;
@@ -13,15 +36,33 @@ footer {
   box-shadow: #555 0px 0px 10px;
 }
 
-.textoIndex {
-  text-align: left;
-}
-
 /*index mobile*/
 @media (max-width: 610px) {
-
   .navbarMobile {
     display: block;
+  }
+
+  .subtit_nos {
+    margin-left: 0% !important;
+  }
+
+  .link-adopt {
+    color: #F2F2F2;
+    text-decoration: none;
+  }
+
+  .adopteH,
+  .adopteT {
+    text-align: center;
+  }
+
+  .adopteB {
+    margin-left: 20%;
+    width: 60%;
+  }
+
+  .textoIndex {
+    text-align: left;
   }
 
   .navbarDesktop {
@@ -62,6 +103,33 @@ footer {
 /*index desktop*/
 @media (min-width: 611px) {
 
+  .link-adopt {
+    color: #F2F2F2;
+    text-decoration: none;
+  }
+
+  .inicioB {
+    display: block;
+  }
+
+  .adopteH,
+  .adopteT {
+    text-align: center;
+    margin-left: 7%;
+  }
+
+  .adopteB {
+    width: 20%;
+    margin-left: 43%;
+  }
+
+  .textoIndex {
+    text-align: left;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 3%;
+  }
+
   .carruselNombre {
     font-size: 20px;
     /*color original gris 333*/
@@ -87,10 +155,9 @@ footer {
     flex-grow: 0;
   }
 
-  /* el margin left es +5 pero esta asi para safar*/
   .ult_adopcion {
     margin-top: 2%;
-    margin-left: -5%;
+    margin-left: 5%;
     width: auto;
   }
 
@@ -106,6 +173,11 @@ footer {
     width: 100%;
   }
 
+  #carouselExampleCaptions {
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+
   /* por que en el inspector si agarro el body y le pogno display grid queda bien pero si lo hago desde css no*/
   .body {
     margin: 0;
@@ -116,16 +188,9 @@ footer {
     grid-row-gap: 0px;
   }
 
-  /*a esta clase sacarla despues*/
-  .bodyindex {
-    display: block;
-    align-items: baseline;
-  }
-
-  /* esta era la original
   body {
     display: grid;
-  }*/
+  }
 
   .header {
     grid-area: 1 / 1 / 2 / 6;
@@ -368,7 +433,10 @@ button {
 }
 
 .subtit_nos {
+  text-align: center;
+  margin-left: 0%;
   margin-top: 5%;
+  margin-bottom: 20px;
 }
 
 .introduccion {
@@ -395,6 +463,23 @@ button {
   padding: 10px;
 }
 
+.donaaa{
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.listadonar{
+  margin-top: -30px;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.imgdonar{
+  width: 500px;
+}
 .adoptame {
   display: flex;
   margin-left: 140px;
@@ -405,8 +490,8 @@ button {
 }
 
 .adoptame-txt {
-  margin-left: 60px;
-  margin-right: 140px;
+  margin-left: 50px;
+  margin-right: 100px;
 }
 
 #name,
