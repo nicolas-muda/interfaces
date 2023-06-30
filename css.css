@@ -5,6 +5,14 @@ body {
   padding: 0;
 }
 
+footer {
+  background-color: #8CBF3F;
+  color: #F2F2F2;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: #555 0px 0px 10px;
+}
+
 .textoIndex {
   text-align: left;
 }
@@ -311,6 +319,7 @@ nav ul li a {
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
+  margin-bottom: 90px;
   width: 20%;
   margin-top: 80px;
 }
@@ -422,11 +431,32 @@ button {
   width: 300px;
 }
 
-.conteiner_log{
+.conteiner_log {
   display: flex;
   align-items: center;
 }
 
-.txtmsn{
-  margin-left: 140px;
+.form_adopt {
+  text-align: center;
 }
+
+.txtmsn {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 490px;
+}
+
+#teladop {
+  margin-top: 19px;
+}
+
+#inputadopt {
+  margin-top: -19px;
+}
+
+.pedir {
+  margin-top: -11px;
+  margin-bottom: 30px;
+  /*width: 99px !important;*/
+}
+
