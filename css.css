@@ -23,6 +23,7 @@ body {
   .ult_adopcion {
     margin: 5%;
     width: auto;
+    margin-top: 18%;
     height: fit-content;
     margin-bottom: 9%;
   }
@@ -177,6 +178,10 @@ nav ul li,
   display: inline;
 }
 
+.bodydonar{
+  display: inherit;
+}
+
 nav ul li a {
   text-decoration: none;
   padding: 10px;
@@ -185,7 +190,16 @@ nav ul li a {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 150px;
+  margin-left: -55px;
+}
+
+#donarall{
+  display: flex;
+}
+
+.formdon {
+  margin-left: 45px;
 }
 
 .conteiner {
@@ -212,12 +226,83 @@ nav ul li a {
 .noticias {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 57px;
+}
+
+.buscador {
+  width: 90%;
 }
 
 .titulo {
   margin: 3%;
 }
 
+.card {
+  margin: 6%;
+}
+
+/*de aca pa bajo imput buscador*/
+.input-wrapper {
+  position: relative;
+  width: 290px;
+}
+
+.input {
+  box-sizing: border-box;
+  color: #191919;
+  padding: 15px 15px 15px 35px;
+  width: 100%;
+}
+
+.input.password {
+  padding: 15px 35px 15px 15px;
+}
+
+.input-icon {
+  color: #191919;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-icon.password {
+  left: unset;
+  right: 12px;
+}
+
+/*----------------------*/
+
+/*donacion*/
+.formulario {
+  width: 400px;
+  margin: 5%;
+}
+
+.fecha {
+  font-size: 13px;
+}
+
+#inputCodigo,
+#inputNombre,
+#inputMes,
+#inputAno,
+#inputCvv,
+#inputMonto {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+#buscador {
+  margin-left: 96px;
+}
+
+.input-icon {
+  margin-left: 96px;
+}
 
 /*----------------------*/
 .form_login,
@@ -268,13 +353,13 @@ button {
   text-align: center;
 }
 
-.adopt {
+----------------- .adopt {
   display: flex;
   justify-content: space-between;
   margin: 20px;
 }
 
-.card {
+/*.card {
   flex: 1;
   margin: 0 10px;
   text-align: center;

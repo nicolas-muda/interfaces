@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="tarjeta.css">
 </head>
 
-<body>
+<body class="bodydonar">
   <header class="header">
     <!--navbar desktop-->
     <nav class="navbar navbar-expand navbar-light bg-light navbarDesktop">
@@ -30,7 +30,7 @@
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Inicio</a>
             </li>
-            
+
             <li class="nav-item">
               <a class="nav-link" href="donar.html">Donar</a>
             </li>
@@ -47,98 +47,105 @@
       </div>
     </nav>
   </header>
-
-  <div class="container">
-    <div class="tarjeta">
-      <!--frente tarjeta-->
-      <div class="frente">
-        <!--chip-->
-        <div class="image">
-          <img src="img/chip.png" alt="">
+  <h1>Donaciones</h1>
+  <!--formulario-->
+  <div id="donarall">
+    <div class="container formulario">
+      <form class="formdon">
+        <div class="mb-3">
+          <span>Numero de tarjeta</span>
+          <input type="number" max="99999999999999999" id="inputCodigo" class="card-number-input">
         </div>
-        <div class="divCodigo">################</div>
-        <div class="flexbox">
-          <div class="caja">
-            <span>propietario</span>
-            <div class="divNombre">nombre completo</div>
+
+        <div class="mb-3">
+          <span>Nombre del propietario</span>
+          <input type="text" maxlength="20" id="inputNombre" class="card-holder-input">
+        </div>
+
+        <div class="mb-3">
+          <div class="col">
+            <span>Mes de vencimiento</span>
+            <select class="form-select month-input" id="inputMes" aria-label="Default select example">
+              <option disabled selected>mes</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
           </div>
-          <div class="caja">
-            <span>valido hasta</span>
-            <div class="fecha">
-              <span class="divMes">mm</span>
-              <span class="divAño">yy</span>
+        </div>
+
+        <div class="mb-3">
+          <span>Año de vencimiento</span>
+          <select class="form-select year-input" id="inputAno" aria-label="Default select example">
+            <option disabled selected>año</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <span>Cvv</span>
+          <input type="number" min="0" max="9999" id="inputCvv" class="cvv-input">
+        </div>
+
+        <div class="mb-3">
+          <span>Monto</span>
+          <input type="number" max="99999999999999999" id="inputMonto" class="">
+        </div>
+        <button type="submit" class="btn btn-primary">Donar</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="tarjeta">
+        <!--frente tarjeta-->
+        <div class="frente">
+          <!--chip-->
+          <div class="image">
+            <img src="img/chip.png" alt="">
+          </div>
+          <div class="divCodigo">################</div>
+          <div class="flexbox">
+            <div class="caja">
+              <span>propietario</span>
+              <div class="divNombre">nombre completo</div>
+            </div>
+            <div class="caja">
+              <span>valido hasta</span>
+              <div class="fecha">
+                <span class="divMes">mm</span>
+                <span class="divAño">yy</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <!--dorso tarjeta-->
-      <div class="atras">
-        <div class="barraNegra"></div>
-        <div class="caja">
-          <span>cvv</span>
-          <div class="barraBlanca"></div>
+        <!--dorso tarjeta-->
+        <div class="atras">
+          <div class="barraNegra"></div>
+          <div class="caja">
+            <span>cvv</span>
+            <div class="barraBlanca"></div>
+          </div>
         </div>
       </div>
     </div>
-
-  </div>
-  <!--formulario-->
-  <div class="container">
-    <form>
-      <div class="mb-3">
-        <span>numero de tarjeta</span>
-        <input type="number" max="99999999999999999" id="inputCodigo" class="card-number-input">
-      </div>
-
-      <div class="mb-3">
-        <span>nombre del propietario</span>
-        <input type="text" maxlength="20" id="inputNombre" class="card-holder-input">
-      </div>
-
-      <div class="mb-3">
-        <div class="col">
-          <span>mes de vencimiento</span>
-          <select class="form-select month-input" id="inputMes" aria-label="Default select example">
-            <option value="01">01</option>
-            <option value="02">02</option>
-            <option value="03">03</option>
-            <option value="04">04</option>
-            <option value="05">05</option>
-            <option value="06">06</option>
-            <option value="07">07</option>
-            <option value="08">08</option>
-            <option value="09">09</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="mb-3">
-        <span>año de vencimiento</span>
-        <select class="form-select year-input" id="inputAno" aria-label="Default select example">
-          <option value="2021">2021</option>
-          <option value="2022">2022</option>
-          <option value="2023">2023</option>
-          <option value="2024">2024</option>
-          <option value="2025">2025</option>
-          <option value="2026">2026</option>
-          <option value="2027">2027</option>
-          <option value="2028">2028</option>
-          <option value="2029">2029</option>
-          <option value="2030">2030</option>
-        </select>
-      </div>
-
-
-      <div class="mb-3">
-        <span>cvv</span>
-        <input type="number" min="0" max="9999" id="inputCvv" class="cvv-input">
-      </div>
-
-    </form>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
