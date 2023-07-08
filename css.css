@@ -390,8 +390,8 @@ nav ul li a {
 .form_registro {
   border: solid;
   text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 40%;
+  margin-right: 40%;
   margin-bottom: 90px;
   width: 20%;
   margin-top: 80px;
@@ -525,7 +525,6 @@ button {
 }
 
 .conteiner_log {
-  display: flex;
   align-items: center;
 }
 
