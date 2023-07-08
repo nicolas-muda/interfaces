@@ -6,10 +6,10 @@
   <title>PACMA - Adoptame</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="adoptame.css">
 </head>
 
-<body class="noticiero">
+<body>
   <header class="header">
     <!--navbar desktop-->
     <nav class="navbar navbar-expand navbar-light bg-light navbarDesktop">
@@ -33,7 +33,7 @@
               <a class="nav-link" href="adopcion.html">Adopcion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="predonarc.html">Donar</a>
+              <a class="nav-link" href="donarC.html">Donar</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="noticiasC.html">Noticias</a>
@@ -58,46 +58,47 @@
   <div class="titulo">
     <h1>Cachilo</h1>
   </div>
-  <div class="alladopt">
-    <div class="adoptame">
-      <div class="perro">
-        <img class="img-adopt" src="img/perro.jpg" alt="Dog" width="550px" height="400px">
-      </div>
-      <div class="adoptame-txt">
-        <p>Presentamos a cachilo, un ejemplar de la raza caniche en busca de un hogar amoroso.cachilo es un perro de 2
-          años, con un pelaje blnco y una apariencia elegante que no
-          pasa desapercibida.
-          <br />
-          caniche es conocida por su lealtad, inteligencia y su naturaleza amorosa, y cachilo no es
-          una excepción. Es un perro tranquilo y cariñoso que adora los mimos y estar cerca de su familia humana. Es
-          ideal
-          para personas que buscan un compañero afectuoso y dispuesto a acompañarlos en sus actividades diarias.
-          <br />
-          A pesar de su personalidad relajada, cachilo también disfruta de jugar y ejercitarse. Le encanta
-          salir a pasear y explorar su entorno con entusiasmo. Es un excelente compañero de caminatas y estará encantado
-          de seguirte en tus aventuras al aire libre.
-          <br />
-          Buscamos un hogar donde cachilo sea tratado como parte de la familia. Un entorno tranquilo y seguro
-          donde pueda recibir el amor y la atención que se merece. cachilo se entregará vacunado, desparasitado
-          y esterilizado.
-          <br />
-          Si eres amante de la raza caniche y estás buscando un compañero fiel y afectuoso, cachilo
-          está esperando para convertirse en tu fiel amigo. Si estás interesado en adoptar a cachilo y darle un
-          hogar lleno de amor, por favor contáctanos para programar una cita y conocer a este encantador perro
-        </p>
-      </div>
+
+  <div class="cart">
+
+    <div class="perro">
+
     </div>
 
-    <div class="adoptando">
-      <div class="form_adopt">
-        <form action="comunicando.html" method="POST">
-          <p id="teladop">Telefono:</p>
-          <p id="inputadopt"><input class="input-telef"></input></p>
-          <button class="pedir">Adoptame</button>
-        </form>
-      </div>
+    <div class="descripcion">
+      <p>Presentamos a cachilo, un ejemplar de la raza caniche en busca de un hogar amoroso.cachilo es un perro de 2
+        años, con un pelaje blanco y una apariencia elegante que no
+        pasa desapercibida.
+        <br />
+        caniche es conocida por su lealtad, inteligencia y su naturaleza amorosa, y cachilo no es
+        una excepción. Es un perro tranquilo y cariñoso que adora los mimos y estar cerca de su familia humana. Es
+        ideal
+        para personas que buscan un compañero afectuoso y dispuesto a acompañarlos en sus actividades diarias.
+        <br />
+        A pesar de su personalidad relajada, cachilo también disfruta de jugar y ejercitarse. Le encanta
+        salir a pasear y explorar su entorno con entusiasmo. Es un excelente compañero de caminatas y estará encantado
+        de seguirte en tus aventuras al aire libre.
+        <br />
+        Buscamos un hogar donde cachilo sea tratado como parte de la familia. Un entorno tranquilo y seguro
+        donde pueda recibir el amor y la atención que se merece. cachilo se entregará vacunado, desparasitado
+        y esterilizado.
+        <br />
+        Si eres amante de la raza caniche y estás buscando un compañero fiel y afectuoso, cachilo
+        está esperando para convertirse en tu fiel amigo.
+      </p>
     </div>
+
   </div>
+
+  <div class="adoptando">
+    <h1 class="a">adoptar</h1>
+    <form class="formulario" action="comunicando.html" method="POST">
+      <label id="teladop">Telefono:</label>
+      <input type="number" class="input-telef"></input>
+      <button type="button" class="btn btn-primary">adoptar</button>
+    </form>
+  </div>
+
   <footer>
     <p>Derechos de autor &copy; 2023 PACMA. Todos los derechos reservados.</p>
   </footer>

@@ -1,0 +1,110 @@
+/*                                  navbar                                        */
+/*margen de los elementos del navbar*/
+ul li {
+    margin: 2%;
+}
+
+/*tamaño del logo*/
+.logo {
+    width: 70px;
+}
+
+/*el pacma del logo desktop*/
+.spanPacma {
+    margin-left: -15px;
+}
+
+/*muestra el navbar desktop*/
+.navbarDesktop {
+    display: block;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*                                     resto                                       */
+/*defino un color para ver mejor la proporcion cambiar o sacar*/
+body {
+    background-color: #CDD973;
+}
+
+.titulo {
+    margin: 3%;
+    text-align: center;
+}
+
+.cart {
+    display: flex;
+}
+
+footer {
+    background-color: #8CBF3F;
+    color: #F2F2F2;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: #555 0px 0px 10px;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+
+/*                                       cart                                     */
+.cart {
+    display: flex;
+    border-radius: 10px;
+    margin: 3%;
+    background-color: aliceblue;
+}
+
+.descripcion {
+    margin: 1%;
+    width: 50%;
+}
+
+.perro {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(img/adopciones/adopcion1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*                                   adopcion                                     */
+.adoptando {
+    display: grid;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.a {
+    text-align: center;
+}
+
+.formulario {
+    margin: auto;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*                                    fuentes                                          */
+@font-face {
+    font-family: 'texto';
+    src: url('fuentes/Martel-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'titulo';
+    src: url('fuentes/HindSiliguri-Medium.ttf') format('truetype');
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'titulo', sans-serif;
+  }
+  
+  p {
+    font-family: 'texto', sans-serif;
+  }
+  /*-------------------------------------------------------------------------------------*/
