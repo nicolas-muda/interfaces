@@ -19,6 +19,26 @@ ul li {
     display: block;
 }
 
+.usuario {
+    display: flex;
+}
+
+.login {
+    display: flex;
+}
+
+.login1 {
+    margin-top: 12%;
+}
+
+.login2 {
+    margin-top: 11%;
+}
+
+.bienvenido {
+    margin-right: 10px;
+}
+
 /*--------------------------------------------------------------------------------*/
 
 /*                                     resto                                       */
@@ -93,18 +113,24 @@ footer {
 @font-face {
     font-family: 'texto';
     src: url('fuentes/Martel-Regular.ttf') format('truetype');
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'titulo';
     src: url('fuentes/HindSiliguri-Medium.ttf') format('truetype');
-  }
-  
-  h1,h2,h3,h4,h5,h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'titulo', sans-serif;
-  }
-  
-  p {
+}
+
+p {
     font-family: 'texto', sans-serif;
-  }
-  /*-------------------------------------------------------------------------------------*/
+}
+
+/*-------------------------------------------------------------------------------------*/

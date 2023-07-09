@@ -1,11 +1,11 @@
-
 /*defino un color para ver mejor la proporcion cambiar o sacar*/
 body {
   background-color: #CDD973;
 }
 
 /*titulos*/
-h1,h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -83,7 +83,7 @@ footer {
 /*index desktop*/
 @media (min-width: 611px) {
 
-  /*oculta el navbar mobile*/
+  /*oculta el navbar mobile y el menu*/
   .navbarMobile,
   .menuMobile {
     display: none;
@@ -94,9 +94,10 @@ footer {
     display: block;
   }
 
-  /* muestra el menu desktop*/
-  .menuDesktop {
-    display: flex;
+  /*                                  navbar                                        */
+  /*margen de los elementos del navbar*/
+  ul li {
+    margin: 2%;
   }
 
   /*tamaño del logo*/
@@ -107,6 +108,38 @@ footer {
   /*el pacma del logo desktop*/
   .spanPacma {
     margin-left: -15px;
+  }
+
+  /*muestra el navbar desktop*/
+  .navbarDesktop {
+    display: block;
+  }
+
+  .usuario {
+    display: flex;
+  }
+
+  .login {
+    display: flex;
+  }
+
+  .login1 {
+    margin-top: 12%;
+  }
+
+  .login2 {
+    margin-top: 11%;
+  }
+
+  .bienvenido {
+    margin-right: 10px;
+  }
+
+  /*--------------------------------------------------------------------------------*/
+
+  /* muestra el menu desktop*/
+  .menuDesktop {
+    display: flex;
   }
 
   /*esto afecta al nombre de la mascota en el carrusel*/
@@ -144,11 +177,6 @@ footer {
     background-size: contain;
     width: 100%;
   }
-
-  /*margen de los elementos del navbar*/
-  ul li {
-    margin: 2%;
-  }
 }
 
 /*                                    fuentes                                          */
@@ -162,11 +190,17 @@ footer {
   src: url('fuentes/HindSiliguri-Medium.ttf') format('truetype');
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'titulo', sans-serif;
 }
 
 p {
   font-family: 'texto', sans-serif;
 }
+
 /*-------------------------------------------------------------------------------------*/

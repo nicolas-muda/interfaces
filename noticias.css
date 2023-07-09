@@ -34,28 +34,48 @@
 /*--------------------------------------------------------------------------------*/
 
 
-/*                                  navbar                                        */
-/*margen de los elementos del navbar*/
-ul li {
+  /*                                  navbar                                        */
+  /*margen de los elementos del navbar*/
+  ul li {
     margin: 2%;
-}
+  }
 
-/*tamaño del logo*/
-.logo {
+  /*tamaño del logo*/
+  .logo {
     width: 70px;
-}
+  }
 
-/*el pacma del logo desktop*/
-.spanPacma {
+  /*el pacma del logo desktop*/
+  .spanPacma {
     margin-left: -15px;
-}
+  }
 
-/*muestra el navbar desktop*/
-.navbarDesktop {
+  /*muestra el navbar desktop*/
+  .navbarDesktop {
     display: block;
-}
+  }
 
-/*--------------------------------------------------------------------------------*/
+  .usuario {
+    display: flex;
+  }
+
+  .login {
+    display: flex;
+  }
+
+  .login1 {
+    margin-top: 12%;
+  }
+
+  .login2 {
+    margin-top: 11%;
+  }
+
+  .bienvenido {
+    margin-right: 10px;
+  }
+
+  /*--------------------------------------------------------------------------------*/
 
 /*                                     resto                                       */
 /*defino un color para ver mejor la proporcion cambiar o sacar*/
