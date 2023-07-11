@@ -6,10 +6,10 @@
     <title>PACMA - Login y Registro</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="comunicando.css">
 </head>
 
-<body class="noticiero">
+<body>
     <header class="header">
         <!--navbar desktop-->
         <nav class="navbar navbar-expand navbar-light bg-light navbarDesktop">
@@ -27,43 +27,48 @@
                     <!-- me-auto alinea a la izquierda, mx-auto alinea al medio y ms-auto alinea a la derecha-->
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="indexC.html">Inicio</a>
+                            <a class="nav-link" href="indexC.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="adopcion.html">Adopcion</a>
+                            <a class="nav-link active" href="adopcion.html">Adopcion</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="donarC.html">Donar</a>
+                            <a class="nav-link" href="predonarC.html">Donar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="noticiasC.html">Noticias</a>
                         </li>
-                        <li class="nav-item" id="saludo">
-                            <p>Bienvenido,</p>
-                        </li>
-                        <li class="nav-item" id="name">
-                            <p>Pepe</p>
-                        </li>
+
                     </ul>
                 </div>
 
                 <!--login-->
-                <div>
-                    <a href="index.html">Salir</a>
+                <div class="login">
+                    <div class="login1">
+                        <p class="bienvenido">bienvenido, pepe</p>
+                    </div>
+
+                    <div class="login2">
+                        <a href="index.html">Salir</a>
+                    </div>
+
                 </div>
+
             </div>
         </nav>
     </header>
     <div class="titulo">
+        <h2>Peticion solicitada exitosamente!!</h2>
     </div>
-    <div class="conteiner_registrado">
-        <h2 class="titulomsn">Peticion solicitada exitosamente!!</h2>
-        <p class="txtmsn">Muchas gracias por su interes, en breves nos comunicaremos para consultarle sobre mas detalles
+
+    <div class="texto">
+        <p>Muchas gracias por su interes, en breves nos comunicaremos para consultarle sobre mas detalles
             y coordinar para que te unas con tu nuevo compañero.</p>
     </div>
+
     <footer>
         <p>Derechos de autor &copy; 2023 PACMA. Todos los derechos reservados.</p>
-      </footer>
+    </footer>
 </body>
 
 </html>
