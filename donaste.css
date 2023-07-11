@@ -6,7 +6,7 @@ ul li {
 
 a {
     text-decoration: none;
-    color: 0477BF;
+    color: #0477BF;
 }
 
 /*tamaño del logo*/
@@ -65,15 +65,14 @@ footer {
     box-shadow: #555 0px 0px 10px;
 }
 
-.titulo {
+.titulo{
     margin: 3%;
     text-align: center;
 }
 
-.texto {
+.texto{
     margin: 3%;
 }
-
 /*---------------------------------------------------------------------------------------*/
 
 /*                                    fuentes                                            */

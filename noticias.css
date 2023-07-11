@@ -4,11 +4,6 @@
   width: 290px;
 }
 
-a {
-  text-decoration: none;
-  color: 0477BF;
-}
-
 .input {
   box-sizing: border-box;
   color: #191919;
@@ -104,6 +99,11 @@ body {
 .titulo {
   text-align: center;
   margin: 3%;
+}
+
+a {
+  text-decoration: none;
+  color: #0477BF;
 }
 
 footer {

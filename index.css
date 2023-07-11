@@ -3,9 +3,10 @@
 body {
   background-color: #CDD973;
 }*/
+
 a {
   text-decoration: none;
-  color: 0477BF;
+  color: #0477BF;
 }
 
 /*titulos*/
@@ -140,6 +141,19 @@ footer {
     margin-right: 10px;
   }
 
+  /*cualquier cosa borrar de aca hasta la llave amarilla*/
+  /* Desactiva las transiciones en el carrusel */
+  .carousel-inner .carousel-item {
+    transition: none;
+  }
+
+  /* Desactiva las animaciones del carrusel */
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    animation: none;
+  }
+
   /*--------------------------------------------------------------------------------*/
 
   /* muestra el menu desktop*/
@@ -181,6 +195,19 @@ footer {
     background-position: center;
     background-size: contain;
     width: 100%;
+  }
+
+  /*cualquier cosa borrar de aca hasta la llave amarilla*/
+  /* Desactiva las transiciones en el carrusel */
+  .carousel-inner .carousel-item {
+    transition: none;
+  }
+
+  /* Desactiva las animaciones del carrusel */
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    animation: none;
   }
 }
 
