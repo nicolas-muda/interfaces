@@ -53,9 +53,10 @@ button {
 
 /*                                     resto                                       */
 /*defino un color para ver mejor la proporcion cambiar o sacar*/
+/*
 body {
     background-color: #CDD973;
-}
+}*/
 
 .titulo {
     margin: 3%;
@@ -64,6 +65,7 @@ body {
 
 .cart {
     display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.175);
 }
 
 footer {

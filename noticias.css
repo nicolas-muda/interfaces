@@ -79,9 +79,10 @@ ul li {
 
 /*                                     resto                                       */
 /*defino un color para ver mejor la proporcion cambiar o sacar*/
+/*
 body {
   background-color: #CDD973;
-}
+}*/
 
 .noticias {
   display: flex;

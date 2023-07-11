@@ -3,19 +3,6 @@
 ul li {
     margin: 2%;
 }
-
-button {
-    margin-top: 5% !important;
-    margin-bottom: 5% !important;
-    height: 40px !important;
-    margin-left: 40%;
-    margin-right: 40%;
-    width: 20%;
-    background-color: #8CBF3F !important;
-    color: white !important;
-    border: none !important;
-}
-
   
 .redireccion{
     color: white;
@@ -60,10 +47,10 @@ button {
 /*---------------------------------------------------------------------------------------*/
 
 /*                                         menu                                          */
-
+/*
 body {
     background-color: #CDD973;
-}
+}*/
 
 .imagenes {
     display: flex;
@@ -100,14 +87,23 @@ footer {
     box-shadow: #555 0px 0px 10px;
 }
 
-.boton {
-    margin-bottom: 3%;
-    text-align: center;
-}
+
 
 /* distancia entre cada elemento de la lista*/
 ul li {
     margin: 1.2%;
+}
+
+button {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    height: 40px !important;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    background-color: #8CBF3F !important;
+    color: white !important;
+    border: none !important;
 }
 
 /*---------------------------------------------------------------------------------------*/
