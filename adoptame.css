@@ -4,6 +4,16 @@ ul li {
     margin: 2%;
 }
 
+button {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    height: 40px !important;
+    width: 100% ;
+    background-color: #8CBF3F !important;
+    color: white !important;
+    border: none !important;
+  }
+
 /*tamaño del logo*/
 .logo {
     width: 70px;
@@ -97,6 +107,10 @@ footer {
     width: 500px;
     margin: auto;
     margin-bottom: 3%;
+}
+
+.button{
+    text-align: center;
 }
 
 .a {

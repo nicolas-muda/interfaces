@@ -4,6 +4,17 @@ ul li {
     margin: 2%;
 }
 
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8CBF;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /*tamaño del logo*/
 .logo {
     width: 70px;
@@ -35,7 +46,7 @@ ul li {
     margin-top: 11%;
 }
 
-.bienvenido{
+.bienvenido {
     margin-right: 10px;
 }
 
@@ -82,18 +93,24 @@ footer {
 @font-face {
     font-family: 'texto';
     src: url('fuentes/Martel-Regular.ttf') format('truetype');
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'titulo';
     src: url('fuentes/HindSiliguri-Medium.ttf') format('truetype');
-  }
-  
-  h1,h2,h3,h4,h5,h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'titulo', sans-serif;
-  }
-  
-  p {
+}
+
+p {
     font-family: 'texto', sans-serif;
-  }
-  /*-------------------------------------------------------------------------------------*/
+}
+
+/*-------------------------------------------------------------------------------------*/
