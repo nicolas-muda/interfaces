@@ -3,11 +3,16 @@
 ul li {
     margin: 2%;
 }
-  
-.redireccion{
+
+a {
+    text-decoration: none;
+    color: 0477BF;
+}
+
+.redireccion {
     color: white;
     text-decoration: none;
-}  
+}
 
 /*tamaño del logo*/
 .logo {

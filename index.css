@@ -3,6 +3,10 @@
 body {
   background-color: #CDD973;
 }*/
+a {
+  text-decoration: none;
+  color: 0477BF;
+}
 
 /*titulos*/
 h1,
