@@ -71,6 +71,7 @@ button {
 .form_login,
 .form_registro {
     border: solid;
+    border-color: #8CBF3F;
     text-align: center;
     margin-left: 40%;
     margin-right: 40%;
