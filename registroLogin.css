@@ -72,12 +72,26 @@ button {
 .form_registro {
     border: solid;
     border-color: #8CBF3F;
-    text-align: center;
     margin-left: 40%;
     margin-right: 40%;
     margin-bottom: 90px;
     width: 20%;
     margin-top: 80px;
+}
+
+label {
+    margin-left: 5%;
+}
+
+p,
+h2,
+a {
+    text-align: center;
+}
+
+button{
+margin-left: 30%;
+width: 40%;
 }
 
 input[type="text"],
